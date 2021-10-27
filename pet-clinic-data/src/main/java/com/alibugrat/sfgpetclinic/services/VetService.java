@@ -1,6 +1,5 @@
 package com.alibugrat.sfgpetclinic.services;
 
-import com.alibugrat.sfgpetclinic.model.Owner;
 import com.alibugrat.sfgpetclinic.model.Vet;
 
 import java.util.Set;

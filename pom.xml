@@ -19,6 +19,7 @@
     <description>sfg-pet-clinic</description>
     <properties>
         <java.version>11</java.version>
+        <maven.javadoc.skip>true</maven.javadoc.skip>
     </properties>
 
     <build>
@@ -40,6 +41,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>

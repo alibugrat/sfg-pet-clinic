@@ -1,0 +1,13 @@
+package com.alibugrat.sfgpetclinic.services;
+
+import com.alibugrat.sfgpetclinic.model.Owner;
+import com.alibugrat.sfgpetclinic.model.Vet;
+
+import java.util.Set;
+
+public interface VetService {
+
+    Vet findById(Long id);
+    Vet save (Vet vet);
+    Set<Vet> findAll();
+}
